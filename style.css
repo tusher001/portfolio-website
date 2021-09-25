@@ -1,0 +1,113 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0px;
+    padding: 0px;
+    color: #363958;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    float: left;
+}
+
+/* First Section */
+.first-half{
+    width: 35%;
+    float: left;
+    padding: 1%;
+}
+.second-half{
+    width: 42%;
+    float: right;
+}
+.second-half img{
+    width: 90%;
+}
+.first-half img{
+    width: 90%;
+}
+#text-area {
+    width: 100%;
+    margin-left: 12%;
+    margin-top: 25%;
+}
+#text-area h1 {
+    font-size: 60px;
+}
+.text-highlight{
+    color: #FF8367;
+}
+#text-area p{
+    margin-top: -28px;
+}
+
+/* All Button */
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(42deg, #FF8063,#F46060);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+/* About part */
+#about{
+    width: 90%;
+}
+
+/*Latest work Section*/
+.latest-work{
+    float: left;
+    width: 100%;
+    background-color: #f8f9fc;
+    padding: 50px 20px;
+}
+.latest-work h1{
+    text-align: center;
+}
+.one-third{
+    width: 28%;
+    padding: 10px;
+    margin: 0px 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 6.5812px 19.7436px rgb(0 0 0 / 7%);
+    float: left;
+}
+.one-third img{
+    width: 100%;
+}
+
+/* Work Inquiry */
+.work-inquiry{
+    width: 60%;
+    height: 70px;
+    margin: auto;
+    background: url(img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Footer */
+footer{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.icon{
+    margin: 5px;
+}
+.icon img{
+    width: 2%;
+}
